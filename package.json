@@ -1,0 +1,16 @@
+{
+  "name": "guia-hoteles",
+  "version": "1.0.0",
+  "description": "Nuestro primer proyecto de Node.js",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://afal694@bitbucket.org/afal694/guia-hoteles.git"
+  },
+  "author": "Andres Ariza",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/afal694/guia-hoteles#readme"
+}
