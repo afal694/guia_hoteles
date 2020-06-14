@@ -12,5 +12,12 @@
   },
   "author": "Andres Ariza",
   "license": "ISC",
-  "homepage": "https://bitbucket.org/afal694/guia-hoteles#readme"
+  "homepage": "https://bitbucket.org/afal694/guia-hoteles#readme",
+  "keywords": [
+    "Nuestro",
+    "primer",
+    "proyecto",
+    "de",
+    "Nodejs"
+  ]
 }
