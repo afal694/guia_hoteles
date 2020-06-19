@@ -1,6 +1,7 @@
 .jumbotron{
   background-color: light;
   color: grey;
+  margin-top: 20px;
 }
 
 footer{
@@ -8,6 +9,7 @@ footer{
   padding: 10px 10px 0 10px;
   margin-bottom: 0px;
   margin-top: 10px;
+  justify-content: space-between;
 }
 
 .card-hotel{
@@ -19,6 +21,9 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    border-top:6px solid skyblu;
+    border-style: ridge;
+    border-radius: 10px;
 }
 
 .btn-reservar{
@@ -30,5 +35,4 @@ footer{
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-
 }
