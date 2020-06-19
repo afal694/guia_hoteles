@@ -36,3 +36,7 @@ footer{
   flex-wrap: wrap;
   justify-content: space-between;
 }
+
+.footer-address-icon{
+  padding-right: 10px;
+}

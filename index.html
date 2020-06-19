@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
     <link rel="stylesheet" href="/css/main.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
+    <script src="node_modules/feather-icons/dist/feather.js"></script>
     <title>Hello, world!</title>
 
   </head>
@@ -50,7 +53,7 @@
 
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
-          <li class="breadcrumb-item active" aria-current="page">Home</li>
+          <li class="breadcrumb-item active" aria-current=""><a href="#">Home</a></li>
         </ol>
       </nav>
       <div class="d-flex flex-wrap">
@@ -74,55 +77,61 @@
         <div class="card-hotel">
           <h5 align = "center"><strong>Hilton Garden Inn Bogotá Airport </strong></h5>
           <p class="text-secondary" align="center">El Hilton Garden Inn Bogota Airport ofrece habitaciones con WiFi gratuita en la localidad de Fontibón, en Bogotá.</p>
-          <button class="btn btn-primary btn-reservar" type="button" name="button">Reservar</button>
+          <button class="btn btn-primary btn-reservar" type="button" name="button"><span class="oi oi-globe footer-address-icon"></span>Reservar</button>
         </div>
         <div class="card-hotel">
           <h5 align = "center" ><strong>Courtyard by Marriot Bogotá Airport</strong></h5>
           <p class="text-secondary" align="center">El Courtyard by Marriott Bogota Airport está situado en Bogotá y ofrece un restaurante, WiFi gratuita y un desayuno buffet todas las mañanas.</p>
-          <button class="btn btn-primary btn-reservar" type="button" name="button">Reservar</button>
+          <button class="btn btn-primary btn-reservar" type="button" name="button"><span class="oi oi-globe footer-address-icon"></span>Reservar</button>
         </div>
         <div class="card-hotel">
           <h5 align = "center"><strong>GHL Hotel Capital</strong></h5>
           <p class="text-secondary" align="center">El GHL Hotel Capital está situado en la avenida El Dorado de Bogotá, cerca de la embajada de los Estados Unidos</p>
-          <button class="btn btn-primary btn-reservar" type="button" name="button">Reservar</button>
+          <button class="btn btn-primary btn-reservar" type="button" name="button"><span class="oi oi-globe footer-address-icon"></span>Reservar</button>
         </div>
         <div class="card-hotel">
           <h5 align = "center"><strong>Hilton Bogotá Corferias</strong></h5>
           <p class="text-secondary" align="center">Ofrece alojamiento de 5 estrellas en Bogotá, en el centro internacional de exposiciones Corferias.</p>
-            <button class="btn btn-primary btn-reservar" type="button" name="button">Reservar</button>
+            <button class="btn btn-primary btn-reservar" type="button" name="button"><span class="oi oi-globe footer-address-icon"></span>Reservar</button>
         </div>
         <div class=" card-hotel">
           <h5 align = "center"><strong>Hotel Lima</strong></h5>
           <p class="text-secondary" align="center">Ofrece alojamiento de 5 estrellas en Bogotá, en el centro internacional de exposiciones Corferias.</p>
-            <button class="btn btn-primary btn-reservar" type="button" name="button">Reservar</button>
+            <button class="btn btn-primary btn-reservar" type="button" name="button"><span class="oi oi-globe footer-address-icon"></span>Reservar</button>
         </div>
         <div class="card-hotel">
           <h5 align = "center"><strong>Hotel ciudad de Oslo</strong></h5>
           <p class="text-secondary" align="center">Ofrece alojamiento de 5 estrellas en Bogotá, en el centro internacional de exposiciones Corferias.</p>
-            <button class="btn btn-primary btn-reservar" type="button" name="button">Reservar</button>
+            <button class="btn btn-primary btn-reservar" type="button" name="button"><span class="oi oi-globe footer-address-icon"></span>Reservar</button>
         </div>
         <div class="card-hotel">
           <h5 align = "center"><strong>Hotel Tequendama Bogotá</strong></h5>
           <p class="text-secondary" align="center">Ofrece alojamiento de 5 estrellas en Bogotá, en el centro internacional de exposiciones Corferias.</p>
-            <button class="btn btn-primary btn-reservar" type="button" name="button">Reservar</button>
+            <button class="btn btn-primary btn-reservar" type="button" name="button"><span class="oi oi-globe footer-address-icon"></span>Reservar</button>
         </div>
     </div>
-    <a href="pagina.html"></a>
+
 
     <footer>
       <div class="row">
         <div class="col-sm-4 d-flex flex-column">
-          <a href="http://www.facebook.com">Facebook</a>
-          <a href="http://www.instagram.com">Instagram</a>
-          <a href="http://www.twitter.com">Twitter</a>
-          <a href="http://www.google.com">Google</a>
+<!--          <a href="http://www.facebook.com"><i data-feather="facebook" class="footer-address-icon"></i>Facebook</a>
+          <a href="http://www.instagram.com"><i data-feather="instagram" class="footer-address-icon"></i>Instagram</a>
+          <a href="http://www.twitter.com"><i data-feather="twitter" class="footer-address-icon"></i>Twitter</a>
+          <a href="http://www.google.com"><i class="fab fa-google" class="footer-address-icon"></i  >Google</a>-->
+
+            <a href="http://www.facebook.com"><i class="fab fa-facebook"></i>Facebook</a>
+            <a href="http://www.instagram.com"><i class="fab fa-instagram"></i>Instagram</a>
+            <a href="http://www.twitter.com"><i class="fab fa-twitter"></i>Twitter</a>
+            <a href="http://www.google.com"><i class="fab fa-google" class="footer-address-icon"></i>Google</a>
         </div>
 
         <div class="col-sm-4">
           <address>
             <h3>Oficina central</h3>
-            <p>Cra 7ma No. 106-54 Bogotá Colombia</p>
-            <p>contacto@guiahoteles.com</p>
+            <p><span class="oi oi-home footer-address-icon"></span>Cra 7 No. 106-54 Bogotá Colombia</p>
+            <p><span class="oi oi-inbox footer-address-icon"></span>contacto@guiahoteles.com</p>
+            <p><span class="oi oi-phone footer-address-icon"></span>+215 456212345</p>
           </address>
         </div>
 
@@ -134,6 +143,12 @@
          </div>
       </div>
     </footer>
+
+
+<!--Replace svg files for feacther's icons-->
+    <script>
+      feather.replace()
+    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
