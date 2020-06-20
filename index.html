@@ -8,9 +8,10 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" >
     <link rel="stylesheet" href="/css/main.css">
+
+    <!--iconos-->
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
     <link rel="stylesheet" type="text/css" href="node_modules/@fortawesome/fontawesome-free/css/all.css">
-    <script src="node_modules/feather-icons/dist/feather.js"></script>
     <title>Hello, world!</title>
 
   </head>
@@ -28,9 +29,9 @@
             <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item"><a class="nav-link" href="./about.html">Nosotros</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Términos</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Precios</a></li>
-          <li class="nav-item"><a class="nav-link" href="#">Contacto</a></li>
+          <li class="nav-item"><a class="nav-link" href="./terminos.html">Términos</a></li>
+          <li class="nav-item"><a class="nav-link" href="./precios.html">Precios</a></li>
+          <li class="nav-item"><a class="nav-link" href="./contacto.html">Contacto</a></li>
         </ul>
       </div>
 
@@ -49,7 +50,7 @@
       </div>
 
     </div>
-    <div class="container" style="background:light">
+    <div class="container-main" style="background:light">
 
       <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
@@ -115,23 +116,20 @@
     <footer>
       <div class="row">
         <div class="col-sm-4 d-flex flex-column">
-<!--          <a href="http://www.facebook.com"><i data-feather="facebook" class="footer-address-icon"></i>Facebook</a>
-          <a href="http://www.instagram.com"><i data-feather="instagram" class="footer-address-icon"></i>Instagram</a>
-          <a href="http://www.twitter.com"><i data-feather="twitter" class="footer-address-icon"></i>Twitter</a>
-          <a href="http://www.google.com"><i class="fab fa-google" class="footer-address-icon"></i  >Google</a>-->
 
-            <a href="http://www.facebook.com"><i class="fab fa-facebook"></i>Facebook</a>
-            <a href="http://www.instagram.com"><i class="fab fa-instagram"></i>Instagram</a>
-            <a href="http://www.twitter.com"><i class="fab fa-twitter"></i>Twitter</a>
-            <a href="http://www.google.com"><i class="fab fa-google" class="footer-address-icon"></i>Google</a>
+
+            <a href="http://www.facebook.com"><i class="fab fa-facebook footer-address-icon"></i>Facebook</a>
+            <a href="http://www.instagram.com"><i class="fab fa-instagram footer-address-icon"></i>Instagram</a>
+            <a href="http://www.twitter.com"><i class="fab fa-twitter footer-address-icon"></i>Twitter</a>
+            <a href="http://www.google.com"><i class="fab fa-google footer-address-icon"></i>Google</a>
         </div>
 
         <div class="col-sm-4">
           <address>
             <h3>Oficina central</h3>
-            <p><span class="oi oi-home footer-address-icon"></span>Cra 7 No. 106-54 Bogotá Colombia</p>
-            <p><span class="oi oi-inbox footer-address-icon"></span>contacto@guiahoteles.com</p>
-            <p><span class="oi oi-phone footer-address-icon"></span>+215 456212345</p>
+            <p><i class="fas fa-home footer-address-icon"></i>Cra 7 No. 106-54 Bogotá Colombia</p>
+            <p><i class="fas fa-envelope-open footer-address-icon"></i>contacto@guiahoteles.com</p>
+            <p><i class="fas fa-phone-square footer-address-icon"></i>+215 456212345</p>
           </address>
         </div>
 
@@ -145,10 +143,6 @@
     </footer>
 
 
-<!--Replace svg files for feacther's icons-->
-    <script>
-      feather.replace()
-    </script>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
