@@ -4,6 +4,10 @@
   margin-top: 20px;
 }
 
+.row-info{
+  margin: 5px 5px 5px 5px;
+}
+
 footer{
   background-color: lightgrey;
   padding: 10px 10px 0 10px;
@@ -29,6 +33,7 @@ footer{
 .btn-reservar{
   width: 100%;
 }
+
 
 .container{
   display: flex;
